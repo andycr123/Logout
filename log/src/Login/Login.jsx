@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { Context } from "../Context"
 
 export const Login =() =>  {
-    const {isLogin} = useContext(Context)
+    const { iLogin } = useContext(Context)
     return(
         <div>hola</div>
     )
